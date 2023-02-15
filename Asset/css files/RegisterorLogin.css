@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/bitcoinBG.png);
+    background-color: #16325b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* overflow-y:hidden; */
+    overflow-x: hidden;
+    font-family: 'IBM Plex Serif',
+            Georgia, 'Times New Roman', serif;
+}
+
+.container {
+    width: 780px;
+    height: 580px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 9px 13px 5px;
+    display: flex;
+}
+
+.img-container{
+    /* background-color: pink; */
+    width: 45%;
+    background-image: url(../image/bitcoinBG.png);
+    background-color: #16325b;
+    display: flex;
+    /* height: 90%; */
+    position: relative;
+    flex-wrap: wrap;
+    /* max-width: 1170px; */
+}
+
+.bitcoin8{
+    width: 355px;
+    height: 70%;
+    margin-left:  auto;
+    margin-right: auto;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.User-Details{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 55%;
+}
+
+#Action-Btn{
+    display: flex;
+    position: relative;
+    width: 360px;
+    height: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 35px;
+}
+
+
+#Action-btn, .btn-1{
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    width: 50%;
+    padding-left: 20%;
+        text-decoration: none;
+        line-height: 38px;
+        font-size: 15px;
+}
+
+#Action-btn, .btn-2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: black;
+    background-color: turquoise;
+    font-weight: bold;
+
+    padding-left: 20%;
+        text-decoration: none;
+    
+        line-height: 38px;
+        font-size: 15px;
+}
+
+.form{
+    margin-top: auto;
+    margin-bottom:auto ;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: green; */
+    width: 360px;
+    height: 79%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    font-family: 'IBM Plex Serif',
+            Georgia, 'Times New Roman', serif;
+}
+
+.Username-Container{
+    font-family: 'IBM Plex Serif',
+    Georgia, 'Times New Roman', serif;
+    height: 43px;
+    width: 360px;
+    /* background-color: gold; */
+    display: flex;
+}
+
+#person_add, .material-symbols-outlined{
+   padding-top: 4px;
+   padding-bottom: 2px;
+   padding-right: 2px;
+   padding-left: 2px;
+}
+
+#person_add{
+    background-color: #eeeeee;
+    height: 42.3px;
+    width: 9%;
+    color: black;
+    font-weight: bolder;
+}
+
+.Username{
+    height: 43px;
+    width: 328px;
+    font-size: 14px;
+    padding-left: 20px;
+    font-family: 'IBM Plex Serif',
+    Georgia, 'Times New Roman', serif;
+    border-style:2px solid black ;
+    border-style:2px solid #eeeeee ;
+    color: #000000;
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.Name-Container{
+    margin-top: 30px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    height: 43px;
+    width: 360px;
+    /* background-color: gold; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.FirstName-Container {
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    height: 43px;
+    width: 135px;
+    display: flex;
+}
+
+#person,
+.material-symbols-outlined {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+
+#person{
+    background-color: #eeeeee;
+    height: 42.3px;
+    width: 32px;
+    color: black;
+    font-weight: bolder;
+}
+
+.Firstname {
+    position: relative;
+    height: 43px;
+    width: 135px;
+    font-size: 14px;
+    padding-left: 20px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    border-style: 2px solid black;
+    border-style: 2px solid #eeeeee;
+    color: #000000;
+    background-color: #eeeeee;
+    display: flex;
+}
+
+
+ .LastName-Container {
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    margin-left: 16.2%;
+    height: 43px;
+    width: 135px;
+    display: flex;
+
+}
+
+
+#person-2,
+.material-symbols-outlined {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+
+#person-2{
+    background-color: #eeeeee;
+    height: 42.3px;
+    width: 32px;
+    color: black;
+    font-weight: bolder;
+}
+
+.Lastname {
+    position: relative;
+    height: 43px;
+    width: 135px;
+    font-size: 14px;
+    padding-left: 20px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    border-style: 2px solid black;
+    border-style: 2px solid #eeeeee;
+    color: #030303;
+    background-color: #eeeeee;
+    display: flex;
+}
+
+
+.Email-Container {
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    height: 43px;
+    width: 360px;
+    margin-top: 30px;
+    /* background-color: gold; */
+    display: flex;
+}
+
+#Email,
+.material-symbols-outlined {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#Email {
+    background-color: #eeeeee;
+    height: 42.3px;
+    width: 9%;
+    color: black;
+    font-weight: bolder;
+}
+
+.Email {
+    height: 43px;
+    width: 328px;
+    font-size: 14px;
+    padding-left: 20px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    border-style: 2px solid black;
+    border-style: 2px solid #eeeeee;
+    color: black;
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Password-Container {
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    height: 43px;
+    width: 360px;
+    margin-top: 30px;
+    display: flex;
+}
+
+#Password,
+.material-symbols-outlined {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#Password {
+    background-color: #eeeeee;
+    height: 42.3px;
+    width: 9%;
+    color: black;
+    font-weight: bolder;
+}
+
+.Password {
+    height: 43px;
+    width: 328px;
+    font-size: 14px;
+    padding-left: 20px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    border-style: 2px solid black;
+    border-style: 2px solid #eeeeee;
+    color: black;
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ConfirmPswrd-Container{
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    height: 43px;
+    width: 360px;
+    margin-top: 30px;
+    /* background-color: gold; */
+    display: flex;
+}
+
+#ConfirmPswrd,
+.material-symbols-outlined {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#ConfirmPswrd{
+    background-color: #eeeeee;
+    height: 42.3px;
+    width: 9%;
+    color: black;
+    font-weight: bolder;
+}
+
+.ConfirmPswrd{
+    height: 43px;
+    width: 328px;
+    font-size: 14px;
+    padding-left: 20px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    border-style: 2px solid black;
+    border-style: 2px solid #eeeeee;
+    color: black;
+    background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Terms-Of-Service{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 43px;
+    width: 360px;
+    /* background-color: yellow; */
+}
+
+h6{
+    font-family: 'IBM Plex Serif',
+            Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    padding-top: 13px;
+}
+
+h6, a{
+    font-family: 'IBM Plex Serif',
+            Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+#SignUp_Btn{
+    display: flex;
+    position: relative;
+    width: 360px;
+    height: 7%;
+    margin-top: 10px;
+    background-color: red;
+}
+
+.SU{
+    color: #fff;
+    font-family: 'IBM Plex Serif',
+            Georgia, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-left: 9rem;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+        
+    <link rel="stylesheet" href="Asset/css files/RegisterorLogin.css">
+    <title>Register/Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img-container">
+            <img src="asset/image/bitcoin6.png" alt="#" class="bitcoin8">
+        </div>
+        <div class="User-Details">
+            <div id="Action-Btn">
+                <a href="#" class="btn-1">Login</a>
+                <a href="#" class="btn-2">Sign Up</a>
+            </div>
+            <div class="form">
+                <form method="post" action="process.php">
+
+                    <div class="Username-Container">
+                        <div id="person_add">
+                            <span class="material-symbols-outlined">
+                                person_add
+                            </span>
+                        </div>
+                            <input type="text" name="name" Placeholder="Username" required class="Username">
+                    </div>
+
+
+                    <div class="Name-Container">
+
+                        <div class="FirstName-Container">
+                            <div id="person">
+                                <span class="material-symbols-outlined">
+                                    person
+                                </span>
+                            </div>
+                        
+                            
+                                <input type="text" name="name" placeholder="FirstName" required class="Firstname"/>
+                            
+                        </div>
+                        
+                        
+                        <div class="LastName-Container">
+                            <div id="person-2">
+                                <span class="material-symbols-outlined">
+                                    person
+                                </span>
+                            </div>
+                        
+
+                            <input type="text" name="name" placeholder="LastName" required class="Lastname">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="Email-Container">
+                        <div id="Email">
+                            <span class="material-symbols-outlined">
+                                alternate_email
+                            </span>
+                        </div>
+                        <input type="email" name="email" placeholder="Email" required class="Email">
+                    </div>
+
+
+                    <div class="Password-Container">
+                        <div id="Password">
+                            <span class="material-symbols-outlined">
+                                key
+                            </span>
+                        </div>
+                        <input type="password" name="password" placeholder="Password" required class="Password">
+                    </div>
+
+
+                    <div class="ConfirmPswrd-Container">
+                        <div id="ConfirmPswrd">
+                            <span class="material-symbols-outlined">
+                                key
+                            </span>
+                        </div>
+                        <input type="password" name="password" placeholder="Confirm Password" required class="ConfirmPswrd">
+                    </div>
+
+
+
+                    <div class="Terms-Of-Service">
+                        <h6>
+                             <input type="checkbox"  required/>
+                            I accept the <a href="TermsOfUse.html" required>Terms of Service and Privacy Policy</a>
+                        </h6>
+                    </div>
+
+
+                    <div id="SignUp_Btn">
+                        <a href="#" class="SU">Sign Up</a>
+                    </div>
+                    
+
+                    
+
+
+                   <!-- <p>
+                        <input id="submit" type="submit" name="submit" value="send message">
+                    </p>
+                    <input type="submit" value="sign In" /><br><br>-->
+                    
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

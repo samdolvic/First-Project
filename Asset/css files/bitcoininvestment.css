@@ -1,0 +1,559 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*Basic Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Serif', 
+    Georgia, 'Times New Roman', serif;
+}
+
+
+/*Beginning of first container*/
+.first-container{
+    background-color: #16325b;
+    background-image: url(../image/bitcoinBG.png);
+    /* overflow: hidden; */
+    background-size: 100% 100%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 50px 0px 50px 0px;
+    /* background-attachment: fixed; */
+    /* margin-left: 10px; */
+    /* margin-right: -90px; */
+}
+
+.container-1 {
+    max-width: 1170px;
+    /* background-color: BLUE; */
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container-2{
+    position: relative;
+    /* background-color: yellow; */
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0px 60px 0px 0px;
+    position: relative;
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+
+.container 
+.container-2b{
+    position: relative;
+    /* background-color: pink; */
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0px 60px 0px 0px;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-3{
+    text-align: center;
+    margin-left: 22%;
+}
+
+.container-3, 
+.GYC{
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    text-shadow: 0px 0px 0px rgb(255 236 236 / 78%);
+}
+
+.container-4 {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+.container-4 
+.container-4b{
+    margin: 10px 10px 20px 0px;
+}
+
+.container-4 
+.container-4b 
+.heading-title{
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+.container-5{
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    /* background-color: yellow; */
+}
+
+.container-5b{
+    align-items: center;
+    justify-content: center;
+    background-color: #FF9700;
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right:10px ;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.container-5b, 
+a, .btn{
+    box-shadow: none;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+    padding-top:9px ;
+}
+
+
+.bitcoinBG-2{
+    align-content: center;
+    align-items: center;
+    background-image: url(../image/bitcoinBG2.jpg);
+    background-position: center center;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 100px 100px 100px 100px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.smallBitCoinPics{
+    width: 100px;
+    height: 250px;
+    margin-top: 8rem;
+}
+
+.container-sbp{
+    width: 150px;
+    margin-left: 25rem;
+   
+}
+
+.smallBitCoinPics2 {
+    position: absolute;
+    margin-left:rem;
+    margin-top: 11rem;
+}
+
+.container-sbp2 {
+    width: 150px;
+}
+/*End of first container*/
+
+
+
+
+/*Beginning of Second Container*/
+.second-container{
+    background-color: #16325b;
+    background-image: url(../image/bitcoinBG.png);
+    overflow: hidden;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 50px 0px 50px 0px;
+    /* background-attachment: fixed; */
+}
+
+.second-container,
+ #container-2bi{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 1px;
+    /* width: 100%; */
+    display: flex;
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+}
+
+#container-2bi, 
+.container-2bii{
+    width: 100%;
+    line-height: 1.75;
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    /* background-color: pink; */
+}
+
+.container-2bii, 
+.Basic-PricingTags-BASIC, 
+STELLAR, CLASSIC,:not(:last-child){
+    margin-right: 1rem;
+
+}
+
+.AP-CONTAINER{
+    margin-left:32.5% ;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    /* background-color: orange; */
+    /* width: 240px; */
+}
+
+.AP-CONTAINER, .AP{
+    color: #D8BE07;
+    font-family: "Poppins", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    /* line-height: 56px; */
+    position: relative;
+}
+
+.Basic-PricingTags-BASIC{
+    border-radius: 29px;
+    position: relative;
+    display: flex;
+    gap: 20%;
+    background-color: #b47d66;
+    border-color: #171616;
+    border-style:double;
+    height:auto;
+}
+
+.Basic-PricingTags-STELLAR {
+    border-radius: 29px;
+    position: relative;
+    display: flex;
+    gap: 20%;
+    background-color: #6688b4;
+    border-color: #171616;
+    border-style: double;
+    height: auto;
+}
+
+.Basic-PricingTags-CLASSIC{
+    border-radius: 29px;
+    position: relative;
+    display: flex;
+    gap: 20%;
+    background-color: #5a4e49;
+    border-color: #171616;
+    border-style: double;
+    height: auto;
+}
+
+.Price-items-container{
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Price-items-container, 
+.header{
+    display: block;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.header, 
+.title{
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px;
+    color: #fff;
+    font-family: Lora, Cambria, sans-serif;
+    font-size: 1.78em;
+    text-align: center;
+}
+
+.price-tag{
+    position: relative;
+    z-index: 0;
+    padding: 15px 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 0px;
+    margin: 0px auto;
+    color: #FFF;
+}
+
+.price-tag, 
+.price-tag-amount{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+ul{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul, li{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    font-family: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+}
+/*End of Container TWO(2)*/
+
+
+
+
+/*Beginning of  Container THREE(3)*/
+.Third-container {
+    background-color: #16325b;
+    background-image: url(../image/bitcoinBG.png);
+    overflow: hidden;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 60px 0px 60px 0px;
+    /* background-attachment: fixed; */
+}
+
+.Third-container,
+#container-3bi {
+    display: flex;
+    margin-top: -40px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 1px;
+    /* width: 100%; */
+    display: flex;
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+}
+
+#container-3bi,
+.container-3bii {
+    width: 100%;
+    line-height: 1.75;
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    /* background-color: pink; */
+}
+
+.container-3bii,
+.Basic-PricingTags-SILVER,
+BRONZE,
+GOLD,
+:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.Basic-PricingTags-SILVER {
+    border-radius: 29px;
+    position: relative;
+    display: flex;
+    gap: 20%;
+    background-color: #b4667b;
+    border-color: #171616;
+    border-style: double;
+    height: auto;
+}
+
+.Basic-PricingTags-BRONZE {
+    border-radius: 29px;
+    position: relative;
+    display: flex;
+    gap: 20%;
+    background-color: #495a57;
+    border-color: #171616;
+    border-style: double;
+    height: auto;
+}
+
+.Basic-PricingTags-GOLD {
+    border-radius: 29px;
+    position: relative;
+    display: flex;
+    gap: 20%;
+    background-color: #cb8a11;
+    border-color: #171616;
+    border-style: double;
+    height: auto;
+}
+
+.Price-items-container {
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Price-items-container,
+.header {
+    display: block;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.header,
+.title {
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px;
+    color: #fff;
+    font-family: Lora, Cambria, sans-serif;
+    font-size: 1.78em;
+    text-align: center;
+}
+
+.price-tag {
+    position: relative;
+    z-index: 0;
+    padding: 15px 0px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 0px;
+    margin: 0px auto;
+    color: #FFF;
+}
+
+.price-tag,
+.price-tag-amount {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+ul {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+ul,
+li {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    font-family: 'IBM Plex Serif', Georgia, 'Times New Roman', serif;
+}
+
+
+.container-3c {
+    width: 100%;
+    max-width: 1140px;
+    position: relative;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    /* background-color:blue; */
+}
+
+ .container-3ci{
+    align-items: center;
+    justify-content: center;
+    background-color: #FF9700;
+    border-radius: 17px 17px 17px 17px;
+    height: 35px;
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.container-3c,
+a,
+.btn {
+    box-shadow: none;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*End of Second Container*/

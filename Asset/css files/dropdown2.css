@@ -1,0 +1,110 @@
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-toggler-icon{
+    outline-color:#5e5e61;
+}
+
+.dropdown-menu{
+    position: relative;
+}
+
+.dropdown-menu .submenu{
+    display: none;
+    position: absolute;
+    left: 25%;
+}
+
+.dropdown-menu>li:hover>.submenu{
+    display: block;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/Typing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 35%;
+    font-style: italic;
+    font-size: 39px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigation-btn{
+    color: #fff;
+    justify-items: center;
+    padding: 10px 30px;
+    display: flex;
+    gap: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-1{
+    background-color: slategrey;
+    border-radius: 9px;
+}
+
+.btn-2{
+    background-color: #262ab0;
+    border-radius: 9px;
+}
+
+@media(min-width:576px){
+    .wrapper{
+        width: 74.5%;
+        height: 40px;
+        position: absolute;
+        left: 25%;
+    }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            margin-top: 20%;
+            font-style: italic;
+            font-size: 49px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+         .navigation-btn {
+             padding: 10px 30px;
+             display: flex;
+             gap: 10px;
+             border-radius: 30px;
+             font-size: 18px;
+             margin-top: 1%;
+             margin-left: 39%;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+    
+        .btn-1 {
+            background-color: slategrey;
+            border-radius: 9px;
+            outline-style: none;
+        }
+    
+        .btn-2 {
+            background-color: #262ab0;
+            border-radius: 9px;
+        }
+    
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/Typing.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            background-attachment: fixed;
+        }
+    
+}
