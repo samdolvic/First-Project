@@ -27,7 +27,7 @@ body{
     padding: 50px 0px 50px 0px;
     /* background-attachment: fixed; */
     /* margin-left: 10px; */
-    /* margin-right: -90px; */
+    margin-right: -90px;
 }
 
 .container-1 {
@@ -72,6 +72,9 @@ body{
 
 .container-3, 
 .GYC{
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: pink; */
     align-items: center;
     text-align: center;
     color: #FFFFFF;
@@ -132,8 +135,8 @@ body{
     border-radius: 10px 10px 10px 10px;
     height: 40px;
     margin-top: 40px;
-    margin-left: 10px;
-    margin-right:10px ;
+    margin-left: auto;
+    margin-right:auto ;
     margin-bottom: 40px;
     width: 100%;
 }
