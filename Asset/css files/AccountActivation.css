@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/bitcoinBG.png);
+    background-color: #16325b;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+}
+
+.container{
+    width: 100%;
+    /* background-color: pink; */
+        height: 36.5em;
+        margin-top: -8em;
+         margin-left: auto;
+        margin-right: auto;  
+}
+
+.check-mark{
+    justify-content: center;
+    margin-top: 4.5%;
+    display: flex;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Account-Activation{
+     /* background-color: aqua; */
+    width: 100%;
+    margin-top: -4.2em;
+    justify-content: center;
+} 
+
+.Account-Activation, h6{
+    color: #e9afb0;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif',
+            Georgia, 'Times New Roman', serif;
+    font-size: 25px;
+    padding-left: 12em;
+    justify-content: center;
+}
+
+
+.T {
+    color: #fff;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 16em;
+}
+
+.P{
+    width: 100%;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top :1.5em;
+}
+
+.P, p{
+    padding-left:3em ;
+    padding-right: 3em;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'IBM Plex Serif',
+            Georgia, 'Times New Roman', serif;
+}
+
+
+.support{
+    width: 100%;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 2em;
+}
+
+.support, span{
+    color: tomato;
+    font-style: italic;
+    padding-left: 9em;
+    padding-right: 9em;
+    font-size: 22px;
+}
+
+span, a{
+    text-decoration: none;
+    color: tomato;
+        font-style: italic;
+        font-size: 22px;
+}
+
+footer {
+    margin-top: 10em;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 22px;
+    padding-left: 40%;
+    height: 55px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+}

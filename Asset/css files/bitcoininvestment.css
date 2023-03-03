@@ -16,6 +16,7 @@ body{
 
 /*Beginning of first container*/
 .first-container{
+    width: 100%;
     background-color: #16325b;
     background-image: url(../image/bitcoinBG.png);
     /* overflow: hidden; */
@@ -199,6 +200,7 @@ a, .btn{
 
 /*Beginning of Second Container*/
 .second-container{
+    width: 100%;
     background-color: #16325b;
     background-image: url(../image/bitcoinBG.png);
     overflow: hidden;

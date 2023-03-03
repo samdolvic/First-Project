@@ -81,14 +81,12 @@ body {
 
 
 footer{
-    
+    margin-top: 4em;
     background-color: #000000;
     color: #fff;
-    margin-top: 6px;
     padding-top: 22px;
     padding-left: 40%;
     height: 55px;
     font-family: 'IBM Plex Serif',
             Georgia, 'Times New Roman', serif;
-    
 }

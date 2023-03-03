@@ -416,3 +416,14 @@ h6, a{
     padding-top: 6px;
     padding-left: 9rem;
 }
+
+footer {
+    margin-top: 7em;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 22px;
+    padding-left: 40%;
+    height: 55px;
+    font-family: 'IBM Plex Serif',
+        Georgia, 'Times New Roman', serif;
+}
